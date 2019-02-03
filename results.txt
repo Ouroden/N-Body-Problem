@@ -1,0 +1,164 @@
+#####################################################
+Number of stars: 10
+#####################################################
+
+python N-Body-Sequential.py 10
+Average time:  0.001169586181640625
+
+mpiexec -np 1 python N-Body-Ring.py 10
+Average time:  0.0011547565460205077
+
+mpiexec -np 2 python N-Body-Ring.py 10
+Average time:  0.0010425329208374023
+
+mpiexec -np 3 python N-Body-Ring.py 10
+Average time:  0.0010289907455444335
+
+mpiexec -np 4 python N-Body-Ring.py 10
+Average time:  0.0010421276092529297
+
+#####################################################
+Number of stars: 20
+#####################################################
+
+python N-Body-Sequential.py 20
+Average time:  0.003123974800109863
+
+mpiexec -np 1 python N-Body-Ring.py 20
+Average time:  0.0032354354858398437
+
+mpiexec -np 2 python N-Body-Ring.py 20
+Average time:  0.0025019168853759764
+
+mpiexec -np 3 python N-Body-Ring.py 20
+Average time:  0.002062344551086426
+
+mpiexec -np 4 python N-Body-Ring.py 20
+Average time:  0.0017261981964111328
+
+#####################################################
+Number of stars: 30
+#####################################################
+
+python N-Body-Sequential.py 30
+Average time:  0.006440186500549316
+
+mpiexec -np 1 python N-Body-Ring.py 30
+Average time:  0.0067405223846435545
+
+mpiexec -np 2 python N-Body-Ring.py 30
+Average time:  0.0050155878067016605
+
+mpiexec -np 3 python N-Body-Ring.py 30
+Average time:  0.0038720369338989258
+
+mpiexec -np 4 python N-Body-Ring.py 30
+Average time:  0.00326230525970459
+
+#####################################################
+Number of stars: 40
+#####################################################
+
+python N-Body-Sequential.py 40
+Average time:  0.011325263977050781
+
+mpiexec -np 1 python N-Body-Ring.py 40
+Average time:  0.011330342292785645
+
+mpiexec -np 2 python N-Body-Ring.py 40
+Average time:  0.00811767578125
+
+mpiexec -np 3 python N-Body-Ring.py 40
+Average time:  0.006134653091430664
+
+mpiexec -np 4 python N-Body-Ring.py 40
+Average time:  0.00536503791809082
+
+#####################################################
+Number of stars: 50
+#####################################################
+
+python N-Body-Sequential.py 50
+Average time:  0.017253899574279787
+
+mpiexec -np 1 python N-Body-Ring.py 50
+Average time:  0.018514394760131836
+
+mpiexec -np 2 python N-Body-Ring.py 50
+Average time:  0.013462424278259277
+
+mpiexec -np 3 python N-Body-Ring.py 50
+Average time:  0.009716391563415527
+
+mpiexec -np 4 python N-Body-Ring.py 50
+Average time:  0.0102630615234375
+
+#####################################################
+Number of stars: 100
+#####################################################
+
+python N-Body-Sequential.py 100
+Average time:  0.06899285316467285
+
+mpiexec -np 1 python N-Body-Ring.py 100
+Average time:  0.06967830657958984
+
+mpiexec -np 2 python N-Body-Ring.py 100
+Average time:  0.04922971725463867
+
+mpiexec -np 3 python N-Body-Ring.py 100
+Average time:  0.03606460094451904
+
+mpiexec -np 4 python N-Body-Ring.py 100
+Average time:  0.02601923942565918
+
+#####################################################
+Number of stars: 150
+#####################################################
+
+python N-Body-Sequential.py 150
+Average time:  0.15811665058135987
+
+mpiexec -np 1 python N-Body-Ring.py 150
+Average time:  0.15481407642364503
+
+mpiexec -np 2 python N-Body-Ring.py 150
+Average time:  0.11086163520812989
+
+mpiexec -np 3 python N-Body-Ring.py 150
+Average time:  0.07612748146057129
+
+mpiexec -np 4 python N-Body-Ring.py 150
+Average time:  0.059363818168640135
+
+#####################################################
+Number of stars: 200
+#####################################################
+
+python N-Body-Sequential.py 200
+Average time:  0.27065749168395997
+
+mpiexec -np 1 python N-Body-Ring.py 200
+Average time:  0.2777219772338867
+
+mpiexec -np 2 python N-Body-Ring.py 200
+Average time:  0.20123658180236817
+
+mpiexec -np 3 python N-Body-Ring.py 200
+Average time:  0.1362542152404785
+
+mpiexec -np 4 python N-Body-Ring.py 200
+Average time:  0.11114497184753418
+
+#####################################################
+Number of stars: 300
+#####################################################
+
+python N-Body-Sequential.py 300
+Average time:  0.6475298404693604
+
+mpiexec -np 1 python N-Body-Ring.py 300
+Average time:  0.6091634273529053
+
+mpiexec -np 2 python N-Body-Ring.py 300
+
